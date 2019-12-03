@@ -10,6 +10,7 @@ environment:
     STACK_WORK: ".w"
     WORK_DIR: "c:\\m"
   matrix:
+  - ARGS: "--resolver lts-11.22"
   - ARGS: "--resolver lts-12.26"
   - ARGS: "--resolver lts-13.30"
   - ARGS: "--resolver lts-14"
